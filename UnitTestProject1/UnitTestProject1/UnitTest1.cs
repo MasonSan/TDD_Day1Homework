@@ -61,7 +61,7 @@ namespace UnitTestProject1
     internal static class ListExtension
     {
 
-        public static IEnumerable<int> GroupSum<T>(this List<T> source, Func<T, int> selector, int groupSize)
+        internal static IEnumerable<int> GroupSum<T>(this List<T> source, Func<T, int> selector, int groupSize)
         {
             var sum = 0;
 
